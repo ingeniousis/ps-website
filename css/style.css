@@ -98,6 +98,7 @@ footer{
 footer p{
     line-height: 20px;
     margin-top: 20px;
+		color: #748182;
 }
 
 .site-button:focus{
@@ -840,6 +841,14 @@ input:-webkit-autofill {
     letter-spacing: -1px;
 }
 
+.blog-single h2 {
+    font-size: 23px;
+    margin: 25px 0 10px 0;
+    color: #000;
+		text-decoration: underline;
+    letter-spacing: -1px;
+}
+
 .blog-single .blog-detail{
     font-size: 13px;
     color: #b9b9b9;
@@ -860,13 +869,13 @@ input:-webkit-autofill {
 }
 
 .blog-single ul.list-style {
-    padding: 30px;
+    padding: 10px;
     line-height: 24px;
 }
 
 .blog-single ul.list-style li {
     font-size: 14px;
-    list-style: circle;
+    list-style: disc;
 }
 
 .lightbox-image img{
